@@ -19,8 +19,9 @@ services:
       - "conf:/openhab/conf"
       - "userdata:/openhab/userdata"
 
-    devices:
-      [] # Default to empty
+
+# uncomment to add devices
+#   devices:
 
       ##
       # Nortek HUSBZB-1 Z-Wave/ZigBee
