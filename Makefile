@@ -32,7 +32,7 @@ help:      ## This help screen
 # list
 # We place 'list' after 'help' to keep 'help' as first target
 #
-list: help ## List targets (currently an alais for 'help')
+list: help ## List targets (currently an alias for 'help')
 
 ##
 # build
