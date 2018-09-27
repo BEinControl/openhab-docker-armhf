@@ -3,7 +3,7 @@ version: '3.7'
 services:
   openhab:
     build         : .
-    image         : "beincontrol/openhab:2.3.0" # TODO: Put version in variable
+    image         : "local/openhab:2.3.0" # TODO: Put version in variable
     container_name: openhab
     restart       : "always"
     network_mode  : bridge
